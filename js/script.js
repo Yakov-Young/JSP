@@ -23,18 +23,6 @@ numberOne = 5;
 document.write("<br \/>" + "--5 = " + (--numberOne));
 numberOne = 5;
 
-document.getElementById("submit").onclick = function(){
+document.getElementById("button").onclick = function(){
   alert("Сибиряков Матвей, ПИ-202");
-}
-
-let a = 1, b = 1, c;
-function fib(n) {
-  let a = 1;
-  let b = 1;
-  for (let i = 3; i <= n; i++) {
-    let c = a + b;
-    a = b;
-    b = c;
-  }
-  return b;
 }
